@@ -14,20 +14,21 @@ Welcome to my Warehouse Inventory Management project, where I delve into the app
 
 ## Relational Model
 ![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/9faee510-9fff-4e74-993f-1c7aadfeb95e)
-
-***You will have to run the following commands in MySQL to create the database in use:***
+***
+***SQL END***
+- **You will have to run the following commands in MySQL to create the database in use:**
 ![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/f5413667-505b-4b74-9a15-8765d2451ba1)
 ![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/6e62605a-b266-4173-bdd0-72f86f435d8e)
 
-***For complete utilization of functionalities, the following Triggers would be required:***
+- **For complete utilization of functionalities, the following Triggers would be required:**
 
-a)	**employee_deleted_trigger OR manager_deleted_trigger**
-•	This triggered is used when an employee quits or is fired.
-•	This trigger takes the info of the employee that was fired, and stores it an “Ex_employee” table for any further use, when the employee data is deleted from the Manager or Employee table.
-•	To achieve this, we have to make 2 different triggers for each, Manager and Employee table, for when data is removed from them, this trigger also inserts the designation and date of removal of the employee to keep a well-maintained record.
+  - **employee_deleted_trigger OR manager_deleted_trigger**
+    - This triggered is used when an employee quits or is fired.
+    - This trigger takes the info of the employee that was fired, and stores it an “Ex_employee” table for any further use, when the employee data is deleted from the Manager or Employee table.
+    - To achieve this, we have to make 2 different triggers for each, Manager and Employee table, for when data is removed from them, this trigger also inserts the designation and date of removal of the employee to keep a well-maintained record.
 ![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/9e239d85-f96f-4b01-bcb3-f15d556c2346)
 
-b)	**inventory_deleted_trigger**
-•	When an inventory item is deleted from the inventory database, this means the item was completely sold out.
-•	Hence, this trigger stores the info of the item which was sold for calculation the total sale of goods from a warehouse in the end.
+  - **inventory_deleted_trigger**
+    - When an inventory item is deleted from the inventory database, this means the item was completely sold out.
+    - Hence, this trigger stores the info of the item which was sold for calculation the total sale of goods from a warehouse in the end.
 ![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/4c308a1d-c3af-4332-8c82-bed1feaa8786)
