@@ -1,7 +1,7 @@
 # Inventory Inventory and Employee Management System
 Welcome to my Warehouse Inventory Management project, where I delve into the application of a Relational Database Management System (RDBMS) to streamline and optimize the processes associated with inventory control. In this exploration, the focus is on leveraging the structured and organized nature of an RDBMS to enhance the overall efficiency of warehouse operations. The project aims to provide a robust solution for managing stock levels, reducing errors, and improving decision-making processes. By integrating the power of an RDBMS, this initiative seeks to offer a scalable and reliable framework that not only ensures real-time visibility into inventory but also contributes to the seamless orchestration of various warehouse activities. Join me on this journey to uncover the potential of database technology in revolutionizing warehouse inventory management.
 
-- ***All files are required to be in the same directory in order for complete execution of the project***
+***(All files are required to be in the same directory in order for complete execution of the project)***
 
 ## Specifications of Project
 - HTML and CSS for front End
