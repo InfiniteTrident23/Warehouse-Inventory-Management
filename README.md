@@ -1,4 +1,2 @@
-![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/3b55c04f-7b63-4620-8cab-5334a7f40f61)
-![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/287ce365-d5ea-4a5b-8f69-0ddf65ac6a5f)
-
-<img src= "https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/d68e0dab-699e-401c-baf5-47b1d69912dc">
+![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/f5413667-505b-4b74-9a15-8765d2451ba1)
+![image](https://github.com/InfiniteTrident23/Warehouse-Inventory-Management/assets/128295541/6e62605a-b266-4173-bdd0-72f86f435d8e)
