@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee - Warehouse Management System</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<header>
+    <h1>Add Employee</h1>
+</header>
+
+<div class="container">
+    <h2>Add New Employee</h2>
+    <form action="add_employee.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="manager_id">Manager ID:</label><br>
+        <input type="number" id="manager_id" name="manager_id" required><br>
+        
+        <label for="salary">Salary:</label><br>
+        <input type="number" id="salary" name="salary" required><br>
+        
+        <label for="designated_floor">Designated Floor:</label><br>
+        <input type="text" id="designated_floor" name="designated_floor" required><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="logo">
+            <img src="logo.png" alt="Footer Logo">
+        </div>
+        <div class="contact-links">
+            <a href="#">Contact Us</a>
+            <a href="#">Support</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

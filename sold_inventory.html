@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sold Inventory</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <h1>Sold Inventory</h1>
+    </header>
+    <div class="container">
+        <form action="sold_inventory.php" method="post">
+            <label for="product_name">Product Name:</label><br>
+            <input type="text" id="product_name" name="product_name" required><br>
+            
+            <label for="warehouse_id">Warehouse ID:</label><br>
+            <input type="number" id="warehouse_id" name="warehouse_id" required><br>
+            
+            <input type="submit" value="Sell">
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="contact-links">
+                <a href="#">Contact Us</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

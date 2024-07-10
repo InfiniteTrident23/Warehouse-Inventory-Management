@@ -1,0 +1,110 @@
+/* Resetting default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background color and font family */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font family */
+    color: #333; /* Default text color */
+}
+
+/* Styling header */
+header {
+    background: linear-gradient(to right, #343a40, #6c757d); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling logo */
+header img {
+    display: block; /* Ensure image is centered */
+    margin: 0 auto 20px; /* Add spacing below image */
+    max-width: 200px; /* Limit image width */
+}
+
+/* Styling main content area */
+.container {
+    max-width: 800px; /* Maximum width for content */
+    margin: 20px auto; /* Center content horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners for container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Styling form elements */
+.container form label {
+    display: block; /* Display labels on new lines */
+    margin-bottom: 10px; /* Add spacing between form elements */
+}
+
+.container form input[type="text"],
+.container form input[type="number"] {
+    width: calc(100% - 22px); /* Full width input fields with margin */
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 20px; /* Add spacing between input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container form input[type="submit"] {
+    width: 100%; /* Full width submit button */
+    padding: 15px; /* Add padding to submit button */
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+.container {
+    max-width: 800px; /* Maximum width for content */
+    margin: 20px auto 60px; /* Center content horizontally and add space at the bottom */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners for container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    position: fixed; /* Fix footer position */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+    width: 100%; /* Full width footer */
+}
+
+.footer-content {
+    max-width: 1000px; /* Maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust logo size as needed */
+}
+
+.contact-links a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin-left: 20px; /* Add spacing between links */
+}
+
+.contact-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
